@@ -1,0 +1,12 @@
+#
+# Cookbook:: apache
+# Recipe:: default
+#
+# Copyright:: 2017, The Authors, All Rights Reserved.
+
+#install package
+package 'httpd' do
+	action :install
+end
+
+#coping insdex.html
